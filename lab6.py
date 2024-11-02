@@ -79,5 +79,5 @@ def histogram(word:str) -> dict:
         if letter in letter_dict:
             letter_dict[letter] += 1
         else:
-            letter_dict[letter] = 1
+            letter_dict[letter] =1
     return letter_dict
